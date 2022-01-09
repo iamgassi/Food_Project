@@ -1,0 +1,90 @@
+.nav-link{
+   font-size: 20px;
+   font-weight: bold;
+   font-family: cursive;
+   
+}
+.navbar-brand{
+   font-size: 20px;
+   font-family: cursive;
+}
+
+
+
+.btn1{
+   margin: 0.3rem;
+   border: 1px solid rgb(207, 207, 207);
+   color: rgb(156, 156, 156);
+   background-color: rgb(255, 255, 255);
+   box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px;
+   border-radius: 0.8rem;
+   padding: 0.8rem;
+   /* display: flex; */
+   /* -webkit-box-align: center; */
+   align-items: center;
+   cursor: pointer;
+   height: 100%;
+   font-size: 0.8rem;
+}
+
+.btn1:hover {
+   color: #fff;
+   background-color: #a6a7a8; 
+   border-color: #a1a1a1;
+}
+
+
+.btn1:focus{
+   color: #a1a1a1;
+   background-color: white;
+   
+}
+
+
+
+.Sbtn{
+   margin: 0.3rem;
+  
+}
+
+
+.w-100 {
+   width: 100% !important;
+   max-height: 120vw;
+   max-height: 120vh;
+
+   
+ }
+
+
+/* color to be use #f3d250 yellow
+   #f78888 pink
+   #ececec silver
+  #90ccf4  blue 
+   #5da2d5 dark blue
+*/
+
+/* for menu */
+.coloumn{
+    font-size: 1.125rem;
+display: flex;
+justify-content:space-around;
+margin: 4rem;
+
+}
+
+
+@media (max-width: 700px) {
+  .coloumn {
+    font-size: 1.125rem;
+    display: inline;
+    text-align: center;
+  }
+}
+
+ion-icon {
+   font-size: 40px;
+ }
+
+
+
